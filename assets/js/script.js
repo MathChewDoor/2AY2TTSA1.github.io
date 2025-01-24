@@ -1,6 +1,6 @@
 document.getElementById("changeColorBtn").addEventListener("click", function() {
-    const colors = ['#2F4F4F', '#3A3B3C', '#1C1C1C', '#2B2B52', '#343434'];
+    const colors = ['#F0E68C', '#ADD8E6', '#FFE4B5', '#FFD700', '#E0FFFF'];
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor;
-    document.body.style.color = '#FFFFFF'; // Ensure the text remains readable
+    document.body.style.color = '#000000'; // Keep font color black
 });
